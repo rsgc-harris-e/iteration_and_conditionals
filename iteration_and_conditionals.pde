@@ -10,8 +10,7 @@ void draw() {
   x += 1;
   y +=1;
   background(40);
-  ellipse(x, 100, 50, 50);
-  ellipse(100,y, 50, 50);
+  ellipse(x, y, 50, 50);
   if (x==250) {
     x-=250;
   }
